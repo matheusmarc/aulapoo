@@ -40,9 +40,9 @@ Serve para comitar um arquivo/diretório
 - O comando git add não adicionará arquivos ignorados por padrão. Se algum arquivo ignorado for especificado explicitamente na linha de comando, git add falhará com uma lista de arquivos ignorados. Arquivos ignorados alcançados pela recursão de diretório ou globbing de nome de arquivo executado pelo Git (cite seus globs antes do shell) serão ignorados silenciosamente. O comando git add pode ser usado para adicionar arquivos ignorados com a opção -f (forçar).
   ```java
   git add
-  ``````
+  ```
 =======
->>>>>>> 1353301adebe2de1ae6fd7bedfc1ecffd803f8fa
+
 ### log 
 
 Exibir histórico:

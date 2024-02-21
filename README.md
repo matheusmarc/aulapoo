@@ -15,8 +15,13 @@ Lista da equipe
 
 - O comando git init cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.
 
+<<<<<<< HEAD
 >>>>>>> 2809a506dc6a7c16cfbadcda113710786f7f08dc
+=======
+### STATUS
+>>>>>>> b7488f34abf6db4546709d497568f40e35186d2a
 
+- O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
 
 ### git commit
 Serve para comitar um arquivo/diretório

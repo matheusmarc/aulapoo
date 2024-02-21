@@ -19,7 +19,13 @@ Lista da equipe
   git init <diretório>
   ```
 
+### STATUS
 
+- O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
+
+```java
+git status [<opções>…​] [--] [<pathspec>…​]
+``````
 
 ### git commit
 Serve para comitar um arquivo/diretório

@@ -80,15 +80,14 @@ git log --pretty=format:"%h - %an, %ar : %s"
 %s: Comentário.
 
 
-<<<<<<< HEAD
 O primeiro push de um repositório deve conter o nome do repositório remoto e o branch:
 ```java
 git push -u origin master
-``````
+```
 Os demais pushes não precisam dessa informação:
 ```java
 git push
-``````
+```
 ### RESTORE
 
 Restaure caminhos especificados na árvore de trabalho com algum conteúdo de uma fonte de restauração. Se um caminho for rastreado, mas não existir na origem de restauração, ele será removido para corresponder à origem.
@@ -102,9 +101,7 @@ Consulte "Redefinir, restaurar e reverter" no git[1] para ver as diferenças ent
 ESTE COMANDO É EXPERIMENTAL. O COMPORTAMENTO PODE MUDAR.
 ```java
 git restore 
-``````
-=======
->>>>>>> 1353301adebe2de1ae6fd7bedfc1ecffd803f8fa
+```
 
 ### pull
 

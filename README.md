@@ -7,12 +7,6 @@ Lista da equipe
 - Joana da Silva
 - Jamilly da Silva Pinheiro
 
-## COMANDOS
-
-### INIT
-
-- É o primeiro programa executado pelo kernel durante a inicialização. Por padrão, o processo init é identificado no sistema com o número 1, ou seja, o PID do init é 1 (a identificação dos processos em execução pode ser visto no diretório /proc). 
-
 
 
 ### git commit
@@ -22,7 +16,6 @@ Serve para comitar um arquivo/diretório
 
 - Comitar vários arquivos: ``` "git commit meu_arquivo.txt meu_outro_arquivo.txt"```
 - Comitar informando mensagem: ```"git commit meuarquivo.txt -m "minha mensagem de commit" ```
-=======
 ### log 
 
 Exibir histórico:
@@ -59,3 +52,11 @@ git log --pretty=format:"%h - %an, %ar : %s"
 
 %s: Comentário.
 
+
+
+### pull
+
+```bash
+git pull
+```
+- Usado para receber possíveis modificações feitas do servidor do Github

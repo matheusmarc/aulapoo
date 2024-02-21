@@ -11,9 +11,11 @@ Lista da equipe
 
 ### INIT
 
-- É o primeiro programa executado pelo kernel durante a inicialização. Por padrão, o processo init é identificado no sistema com o número 1, ou seja, o PID do init é 1 (a identificação dos processos em execução pode ser visto no diretório /proc). 
+- O comando git init cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.
 
+### STATUS
 
+- O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
 
 ### git commit
 Serve para comitar um arquivo/diretório

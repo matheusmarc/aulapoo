@@ -19,9 +19,7 @@ Lista da equipe
   git init <diretório>
   ```
 
-### STATUS
 
-- O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
 
 ### git commit
 Serve para comitar um arquivo/diretório
@@ -30,7 +28,6 @@ Serve para comitar um arquivo/diretório
 
 - Comitar vários arquivos: ``` "git commit meu_arquivo.txt meu_outro_arquivo.txt"```
 - Comitar informando mensagem: ```"git commit meuarquivo.txt -m "minha mensagem de commit" ```
-=======
 ### log 
 
 Exibir histórico:
@@ -67,15 +64,11 @@ git log --pretty=format:"%h - %an, %ar : %s"
 
 %s: Comentário.
 
-### PUSH
-Enviar arquivos/diretórios para o repositório remoto:
 
-O primeiro push de um repositório deve conter o nome do repositório remoto e o branch:
-```java
-git push -u origin master
-``````
-Os demais pushes não precisam dessa informação:
-```java
-git push
-``````
 
+### pull
+
+```bash
+git pull
+```
+- Usado para receber possíveis modificações feitas do servidor do Github

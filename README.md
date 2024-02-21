@@ -25,6 +25,11 @@ Serve para comitar um arquivo/diretório
 - Comitar vários arquivos: ``` "git commit meu_arquivo.txt meu_outro_arquivo.txt"```
 - Comitar informando mensagem: ```"git commit meuarquivo.txt -m "minha mensagem de commit" ```
 =======
+### ADD
+- O comando git add não adicionará arquivos ignorados por padrão. Se algum arquivo ignorado for especificado explicitamente na linha de comando, git add falhará com uma lista de arquivos ignorados. Arquivos ignorados alcançados pela recursão de diretório ou globbing de nome de arquivo executado pelo Git (cite seus globs antes do shell) serão ignorados silenciosamente. O comando git add pode ser usado para adicionar arquivos ignorados com a opção -f (forçar).
+  ```java
+  git add
+  ``````
 ### log 
 
 Exibir histórico:
@@ -71,5 +76,19 @@ git push -u origin master
 Os demais pushes não precisam dessa informação:
 ```java
 git push
+``````
+### RESTORE
+
+Restaure caminhos especificados na árvore de trabalho com algum conteúdo de uma fonte de restauração. Se um caminho for rastreado, mas não existir na origem de restauração, ele será removido para corresponder à origem.
+
+O comando também pode ser usado para restaurar o conteúdo do índice com --staged ou restaurar a árvore de trabalho e o índice com --staged --worktree.
+
+Por padrão, se --staged for fornecido, o conteúdo será restaurado do HEAD, caso contrário, do índice. Use --source para restaurar de um commit diferente.
+
+Consulte "Redefinir, restaurar e reverter" no git[1] para ver as diferenças entre os três comandos.
+
+ESTE COMANDO É EXPERIMENTAL. O COMPORTAMENTO PODE MUDAR.
+```java
+git restore 
 ``````
 

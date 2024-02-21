@@ -59,3 +59,15 @@ git log --pretty=format:"%h - %an, %ar : %s"
 
 %s: Comentário.
 
+### PUSH
+Enviar arquivos/diretórios para o repositório remoto:
+
+O primeiro push de um repositório deve conter o nome do repositório remoto e o branch:
+```java
+git push -u origin master
+``````
+Os demais pushes não precisam dessa informação:
+```java
+git push
+``````
+

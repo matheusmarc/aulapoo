@@ -7,6 +7,15 @@ Lista da equipe
 - Joana da Silva
 - Jamilly da Silva Pinheiro
 
+<<<<<<< HEAD
+=======
+## COMANDOS
+
+### INIT
+
+- O comando git init cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.
+
+>>>>>>> 2809a506dc6a7c16cfbadcda113710786f7f08dc
 
 
 ### git commit
